@@ -66,5 +66,18 @@
                 </table>
         </div>
     </section>
+    <h10>This document was last modified:</h10>
+    <h10 id="demo"></h10><br>
+    <h10>This document is located at:</h10>
+    <h10 id="demo2"></h10>
+
+    <script>
+    let text = document.lastModified;
+    document.getElementById("demo").innerHTML = text;
+    </script>
+    <script>
+      let url = window.document.URL;
+      document.getElementById("demo2").innerHTML = url;
+    </script>
 </body>
 </html>
